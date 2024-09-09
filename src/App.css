@@ -1,0 +1,26 @@
+ /* Add this in your App.css */
+.chat-room {
+  max-width: 600px;
+  margin: auto;
+}
+
+.messages {
+  background: #f1f1f1;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ffffff;
+}
+
+form {
+  display: flex;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+}
+
+form button {
+  padding: 10px;
+}
